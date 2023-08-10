@@ -60,3 +60,22 @@ if __name__ == '__main__':
             low_final_list.append(student[0])
     for student in sorted(low_final_list):
         print(student)
+
+"""Input-output (stdin)
+5
+Harry
+37.21
+Berry
+37.21
+Tina
+37.2
+Akriti
+41
+Harsh
+39
+Your Output (stdout)
+Berry
+Harry
+Expected Output
+Berry
+Harry"""
